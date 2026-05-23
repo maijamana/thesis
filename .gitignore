@@ -1,0 +1,26 @@
+# Large datasets and model outputs
+data/*
+!data/README.md
+!data/.gitkeep
+t5-base-simplification-asset_gpt/
+t5-base-simplification-wikilarge_asset_gpt/
+t5-base-simplification-wikilarge_simple_asset_gpt/
+
+# Training artifacts
+checkpoints/
+outputs/
+wandb/
+runs/
+logs/
+
+# Hugging Face / model files
+*.bin
+*.safetensors
+*.ckpt
+*.onnx
+*.model
+tokenizer.json
+tokenizer_config.json
+special_tokens_map.json
+config.json
+generation_config.json

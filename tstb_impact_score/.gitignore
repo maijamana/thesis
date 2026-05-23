@@ -1,0 +1,29 @@
+# Віртуальне середовище (знаходиться в корені проекту)
+# venv/
+# env/
+# .venv/
+# .env/
+# thesis_venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Результати обробки
+*.csv
+data_*.csv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Моделі та кеш
+.cache/
+models/
+*.pth
+*.pt

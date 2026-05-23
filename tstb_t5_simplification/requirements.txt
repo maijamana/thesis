@@ -1,0 +1,10 @@
+transformers>=4.30.0
+torch
+pandas
+evaluate
+bert_score
+scikit-learn
+sentencepiece
+accelerate
+safetensors
+python-dotenv
